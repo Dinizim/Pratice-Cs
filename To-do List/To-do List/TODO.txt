@@ -1,0 +1,17 @@
+﻿// TODO : 
+    // estudos 
+         [] try e catch 
+         [] system.IO
+         [] Newtonsoft.Json
+
+    // implementar
+        [] caminhos relativo
+
+
+
+
+//
+    F1 = ver comandos
+    Add TASK
+    Check TASK
+    Del TASK
