@@ -1,15 +1,10 @@
 [
   {
-    "Task_Name": "limpar cozinha de manha",
-    "Task_Cheked": true
-  },
-  {
-    "Task_Name": "limpar cozinha De tarde ",
+    "Task_Name": "ARRUMAR QUARTO",
     "Task_Cheked": false
   },
   {
-    "Task_Name": "limpar cozinha a noite",
+    "Task_Name": "LAVA LOUÇA",
     "Task_Cheked": false
-  },
-  
+  }
 ]
