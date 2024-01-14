@@ -2,10 +2,12 @@
     // estudos 
          [] try e catch 
          [x] system.IO
-         [] Newtonsoft.Json
+         [x] Newtonsoft.Json
 
     // implementar
         [] caminhos relativo
+        [] comando de filtrar
+        [] estilizar 
 
 
 
