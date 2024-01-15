@@ -13,49 +13,83 @@ namespace To_do_List
         static void Main(string[] args)
         {
 
-            
 
-            List<string> Commands = new List<string> {"ADD + Task", "CHECK + Task", "DEL + Task","Exit = crtl + n" };
+
+            List<string> Commands = new List<string>
+        {
+            "ADD + Task",
+            "CHECK + Task",
+            "DEL + Task",
+            "ENABLE FILTER",
+            "DISABLE FILTER",
+            "Exit = Ctrl + N"
+        };
 
             int exit = 1;
             List<Class_Task> List_Task = new List<Class_Task>();
             List_Task = Class_Task.View_List_Task(@"C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\To-do List\task2.json");
+            bool Filter = true;
             do
             {
-                
+               
                 Console.Clear();
                 string NewTask = " ";
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Press Ctrl + D to see the commands...");
+                Console.ResetColor();
                 Console.WriteLine();
-                Console.WriteLine(" TO-DO LIST");
-                Console.WriteLine("==================");
+                Console.WriteLine(" ╔══════════════════════╗ ");
+                Console.WriteLine(" ║      TO-DO LIST      ║ ");
+                Console.WriteLine(" ╚══════════════════════╝ ");
                 Console.WriteLine();
-
-
-                foreach (var task in List_Task)
+                
+                if (Filter)
                 {
-                    task.Task_Name = task.Task_Name.ToUpper();
-                    if (task.Task_Cheked)
+                    foreach (var task in List_Task)
                     {
-                        Console.ForegroundColor = ConsoleColor.Green;
-                        Console.Write("[x] ");
-                    }
-                    else
-                    {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.Write("[ ] ");
-                    }
+                       task.Task_Name = task.Task_Name.ToUpper();
+                        if (!task.Task_Cheked)
+                        {
 
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.Write("[ ] ");
+
+
+                            Console.ResetColor();
+                            Console.WriteLine($" {task.Task_Name}");
+                        }
+                    }
+                    Console.WriteLine();
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("Filter Enabled");
                     Console.ResetColor();
-                    Console.WriteLine(task.Task_Name);
+                }
+                else {
+                    foreach (var task in List_Task)
+                    {
+                        task.Task_Name = task.Task_Name.ToUpper();
+                        if (task.Task_Cheked)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Green;
+                            Console.Write("[x] ");
+                        }
+                        else
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.Write("[ ] ");
+                        }
 
+                        Console.ResetColor();
+                        Console.WriteLine($" {task.Task_Name}");
+                    }
                 }
                 Console.WriteLine();
                 Console.WriteLine("Press the Command :");
+
+
+
                
-
-
-                    NewTask = Console.ReadLine();
+                NewTask = Console.ReadLine();
                 if (NewTask != "\u0004" && NewTask != "\u000e")
                 {
                     
@@ -96,26 +130,40 @@ namespace To_do_List
                         List_Task.Add(Task);
                     }
                 }
-                switch (NewTask.ToLower())
+                switch (NewTask)
                     {
 
 
-                        case "\u000e":
-                            exit = 0;
-                            break;
+                    case "\u000e":
+                        exit = 0;
+                        break;
 
 
-                        case "\u0004":
 
-                            Console.Clear();
-                            Console.WriteLine("Comandos disponíveis:");
-                            foreach (var command in Commands)
-                            {
-                                Console.WriteLine(command);
-                            }
-                            Console.ReadLine();
+                    case "ENABLE FILTER":
+                        Filter = true;
+                        break;
 
-                            break;
+                    case "DISABLE FILTER":
+                        Filter = false;
+                        break;
+
+
+                    case "\u0004":
+
+                        Console.Clear();
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine("Comandos disponíveis:");
+                        Console.ResetColor();
+
+                        foreach (var command in Commands)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Cyan;
+                            Console.WriteLine($"- {command}");
+                            Console.ResetColor();
+                        }
+                        Console.ReadLine();
+                        break;
                     }
                 
 

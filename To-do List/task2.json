@@ -1,10 +1,22 @@
 [
   {
     "Task_Name": "ARRUMAR QUARTO",
-    "Task_Cheked": false
+    "Task_Cheked": true
   },
   {
     "Task_Name": "LAVA LOUÇA",
     "Task_Cheked": false
+  },
+  {
+    "Task_Name": "ESTUDAR PROGRAMAÇÃO",
+    "Task_Cheked": false
+  },
+  {
+    "Task_Name": "LAVAR ROUPA",
+    "Task_Cheked": true
+  },
+  {
+    "Task_Name": "LIMPAR MESA",
+    "Task_Cheked": true
   }
 ]
