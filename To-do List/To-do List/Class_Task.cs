@@ -20,6 +20,7 @@ namespace To_do_List
             var strJson = JsonConvert.SerializeObject(list, Formatting.Indented);
             return SaveFileTask(strJson, path);
         }
+
         public static List<Class_Task> View_List_Task(string json_path)
         {
             var srtJson = OpenFileTask(json_path);

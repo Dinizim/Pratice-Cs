@@ -1,0 +1,7 @@
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\Classes (Udemy Teste)\bin\Debug\Classes (Udemy Teste).exe.config
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\Classes (Udemy Teste)\bin\Debug\Classes (Udemy Teste).exe
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\Classes (Udemy Teste)\bin\Debug\Classes (Udemy Teste).pdb
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\Classes (Udemy Teste)\obj\Debug\Classes (Udemy Teste).csproj.AssemblyReference.cache
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\Classes (Udemy Teste)\obj\Debug\Classes (Udemy Teste).csproj.CoreCompileInputs.cache
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\Classes (Udemy Teste)\obj\Debug\Classes (Udemy Teste).exe
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\Classes (Udemy Teste)\obj\Debug\Classes (Udemy Teste).pdb

@@ -1,0 +1,10 @@
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\Bank_System\Bank_System\bin\Debug\Bank_System.exe.config
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\Bank_System\Bank_System\bin\Debug\Bank_System.exe
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\Bank_System\Bank_System\bin\Debug\Bank_System.pdb
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\Bank_System\Bank_System\obj\Debug\Bank_System.csproj.AssemblyReference.cache
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\Bank_System\Bank_System\obj\Debug\Bank_System.csproj.CoreCompileInputs.cache
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\Bank_System\Bank_System\obj\Debug\Bank_System.exe
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\Bank_System\Bank_System\obj\Debug\Bank_System.pdb
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\Bank_System\Bank_System\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\Bank_System\Bank_System\bin\Debug\Newtonsoft.Json.xml
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\Bank_System\Bank_System\obj\Debug\Bank_System.csproj.CopyComplete
