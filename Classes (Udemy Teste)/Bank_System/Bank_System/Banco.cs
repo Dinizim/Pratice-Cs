@@ -209,7 +209,7 @@ namespace Bank_System
             }
             catch (Exception ex)
             {
-                Console.WriteLine("json não aberto, eu odeio minha vida");
+                Console.WriteLine("arquivo não aberto, eu odeio minha vida");
                 return "ERROR: " + ex.Message;
             }
         }
@@ -226,7 +226,7 @@ namespace Bank_System
             }
             catch (Exception ex)
             {
-                Console.WriteLine("json não salvo, eu odeio minha vida");
+                Console.WriteLine("arquivo não salvo, eu odeio minha vida");
                 return false;
             }
         }
