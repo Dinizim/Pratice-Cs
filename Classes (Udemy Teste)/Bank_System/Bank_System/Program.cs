@@ -21,9 +21,42 @@ namespace Bank_System
             string name = "nicollas3";
             Banco banco = new Banco();
             banco.ViewAccout(name);
-            */
+            
+
             Banco banco = new Banco();
             banco.tranferir("51101252871", "12123", 60);
+            */
+            int opt;
+            Console.WriteLine("Bank");
+            Console.WriteLine("1 - Create Account");
+            Console.WriteLine("2 - login");
+            opt = int.Parse(Console.ReadLine());
+
+            switch (opt)
+            {
+                case 1:
+                    string name;
+                    string cpf;
+                    int date;
+
+                    Console.WriteLine("Create Account");
+                    Console.WriteLine("Digite seu nome completo");
+                    name = Console.ReadLine();
+                    Console.WriteLine("Digite o seu CPF");
+                    cpf = Console.ReadLine();
+                    Console.Write("Digite o seu aniversário agora");
+                    date = int.Parse(Console.ReadLine());
+
+                    Client client = new Client(name,cpf,date);
+                    Console.WriteLine($"sua chave de acesso é {client.aceess_key}");
+
+                    Banco banco = new Banco();
+                    banco.CreateAccout(client);
+
+                    break;
+            }
+
+
 
         }
    
