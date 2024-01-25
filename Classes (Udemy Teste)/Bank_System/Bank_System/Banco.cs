@@ -20,25 +20,91 @@ namespace Bank_System
             SerializeClient(List_Client,"Client.json");
 
         }
-        public void ViewAccout(string client_name)
+        public bool SearchAccout(string cpf_name)
         {
             List<Client> List_Client = DeserializeClient("Client.json");
 
-            foreach (var Account  in List_Client)
+            foreach (var Account in List_Client)
             {
-                if (Account.name.Equals(client_name))
+                if (Account.cpf.Equals(cpf_name))
+                {
+                    string key;
+                    Console.WriteLine("CPF encontrado, Digite sua chave de acesso :");
+                    key = Console.ReadLine();
+                    if (Account.aceess_key.Equals(key))
+                    {
+                        SerializeClient(List_Client, "Client.json");
+                        return true;      
+                    }
+                    else
+                    {
+                        Console.WriteLine("Chave Incorreta!");
+                        
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("CPF não encontrado!");
+                }
+
+            }
+            SerializeClient(List_Client, "Client.json");
+            return false;
+        }
+        public void ViewAccout(string cpf_name)
+        {
+            List<Client> List_Client = DeserializeClient("Client.json");
+
+            foreach (var Account in List_Client)
+            {
+                if (Account.cpf.Equals(cpf_name))
                 {
                     Console.WriteLine($"Saldo  R$: {Account.saldo}");
                     Console.WriteLine($"Nome : {Account.name}");
                     Console.WriteLine($"cpf : {Account.cpf}");
                     Console.WriteLine($"dd_mm_aa : {Account.dd_mm_aa}");
                     Console.WriteLine($"Chave de acesso : {Account.aceess_key}");
+                    Console.ReadLine();
+
+                    SerializeClient(List_Client, "Client.json");
+                    int opt;
+                    Console.WriteLine("Function");
+                    Console.WriteLine("1 - Wihtdraw");
+                    Console.WriteLine("2 - Deposit");
+                    Console.WriteLine("3 - Transferir");
+                    opt = int.Parse(Console.ReadLine());
+                    switch (opt)
+                    {
+                        case 1:
+                            float value_Withdraw;
+                            Console.WriteLine("Digite o valor a ser sacado!");
+                            value_Withdraw = float.Parse(Console.ReadLine());
+                            Withdraw(Account.cpf,Account.name,value_Withdraw);
+                            break;
+                        case 2:
+                            float value_deposit;
+                            Console.WriteLine("Digite o valor a ser depositado");
+                            value_deposit = float.Parse(Console.ReadLine());
+                            Withdraw(Account.cpf, Account.name, value_deposit);
+                            break;
+                        case 3:
+                            string cpf_destiny;
+                            float value_Transfer;
+                            Console.WriteLine("Digite o cpf da conta que ira receber o pagamento");
+                            cpf_destiny = Console.ReadLine();
+                            Console.WriteLine("Digite o valor a ser transferido");
+                            value_Transfer = float.Parse(Console.ReadLine());
+                            Withdraw(cpf_destiny, Account.cpf, value_Transfer);
+                            break;
+
+                    }
                 }
             }
+           
         }
        
 
-        public void deposit(string client_cpf, string client_name, float value)
+        public void Deposit(string client_cpf, string client_name, float value)
         {
             List<Client> List_Client = DeserializeClient("Client.json");
             foreach (var Account in List_Client)
