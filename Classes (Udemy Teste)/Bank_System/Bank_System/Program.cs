@@ -12,77 +12,73 @@ namespace Bank_System
         static void Main(string[] args)
         {
 
-            /* add Account
-            Client client = new Client("nicollas3", "51101252871", 12022004);
-            Banco banco = new Banco();
-            banco.CreateAccout(client);
-            */
-            /* view Account
-            string name = "nicollas3";
-            Banco banco = new Banco();
-            banco.ViewAccout(name);
-            
-
-            Banco banco = new Banco();
-            banco.tranferir("51101252871", "12123", 60);
-            */
             int opt;
+            bool exit = false;
             string name;
             string cpf;
             int date;
-            
 
-            Console.WriteLine("Bank");
-            Console.WriteLine("1 - Create Account");
-            Console.WriteLine("2 - login");
-            opt = int.Parse(Console.ReadLine());
-            
-            switch (opt)
+            do
             {
+                Console.Clear();
+                Console.WriteLine("Bank");
+                Console.WriteLine("0 - exit");
+                Console.WriteLine("1 - Create Account");
+                Console.WriteLine("2 - login");
 
-                case 1:
-                    
+                opt = int.Parse(Console.ReadLine());
+                
+                Banco banco = new Banco();
+                switch (opt)
+                {
 
-                    Console.WriteLine("Create Account");
-
-                    Console.WriteLine("Digite seu nome completo");
-                    name = (Console.ReadLine());
-                    name = name.ToUpper();
-
-                    Console.WriteLine("Digite o seu CPF");
-                    cpf = Console.ReadLine();
-
-                    Console.Write("Digite o seu aniversário agora");
-                    date = int.Parse(Console.ReadLine());
-
-                    Client client = new Client(name,cpf,date);
-                    Console.WriteLine($"sua chave de acesso é {client.aceess_key}");
-
-                    Banco banco_create = new Banco();
-                    banco_create.CreateAccout(client);
-
-                    break;
-
-                case 2:
-                    
-
-                    Console.WriteLine("Login Account");
-
-                    Console.WriteLine("Digite o seu CPF");
-                    cpf = Console.ReadLine();
-
-                    Banco banco_login = new Banco();
-                    bool acessado = banco_login.SearchAccout(cpf);
-                    if (acessado)
-                    {
-                        banco_login.ViewAccout(cpf);
-                    }
-
-                    break;
-            }
+                    case 1:
 
 
+                        Console.WriteLine("Create Account");
 
+                        Console.WriteLine("Digite seu nome completo");
+                        name = (Console.ReadLine());
+                        name = name.ToUpper();
+
+                        Console.WriteLine("Digite o seu CPF");
+                        cpf = Console.ReadLine();
+
+                        Console.Write("Digite o seu aniversário agora");
+                        date = int.Parse(Console.ReadLine());
+
+                        Client client = new Client(name, cpf, date);
+                        Console.WriteLine($"sua chave de acesso é {client.aceess_key}");
+
+
+                        banco.CreateAccout(client);
+
+                        break;
+
+                    case 2:
+
+
+                        Console.WriteLine("Login Account");
+
+                        Console.WriteLine("Digite o seu CPF");
+                        cpf = Console.ReadLine();
+
+
+                        bool acessado = banco.SearchAccout(cpf);
+                        if (acessado)
+                        {
+                            banco.ViewAccout(cpf);
+                        }
+
+                        break;
+
+                    case 0:
+                        exit = true;
+                        break;
+                }
+
+
+            } while (!exit);
         }
    
     }

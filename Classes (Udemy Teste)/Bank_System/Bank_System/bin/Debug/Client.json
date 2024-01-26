@@ -3,7 +3,14 @@
     "name": "nicollas1",
     "cpf": "51101252871",
     "dd_mm_aa": 12022004,
-    "saldo": 60.0,
+    "saldo": 120.0,
     "aceess_key": "894D7"
+  },
+  {
+    "name": "NICOLLED DINIZ",
+    "cpf": "1245678901",
+    "dd_mm_aa": 28052007,
+    "saldo": 0.0,
+    "aceess_key": "56C54"
   }
 ]

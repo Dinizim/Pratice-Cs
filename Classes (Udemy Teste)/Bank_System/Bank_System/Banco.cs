@@ -42,10 +42,7 @@ namespace Bank_System
                         
                     }
                 }
-                else
-                {
-                    Console.WriteLine("CPF não encontrado!");
-                }
+                
 
             }
             SerializeClient(List_Client, "Client.json");
@@ -68,6 +65,7 @@ namespace Bank_System
 
                     SerializeClient(List_Client, "Client.json");
                     int opt;
+                    string key;
                     Console.WriteLine("Function");
                     Console.WriteLine("1 - Wihtdraw");
                     Console.WriteLine("2 - Deposit");
@@ -77,15 +75,25 @@ namespace Bank_System
                     {
                         case 1:
                             float value_Withdraw;
-                            Console.WriteLine("Digite o valor a ser sacado!");
+                            
+                            Console.WriteLine("Digite o valor a ser sacado:");
                             value_Withdraw = float.Parse(Console.ReadLine());
-                            Withdraw(Account.cpf,Account.name,value_Withdraw);
+                            Console.WriteLine("Digite sua chave de acesso");
+                            key = Console.ReadLine();
+                            if (Account.aceess_key.Equals(key))
+                            {
+                                Withdraw(Account.cpf, Account.name, value_Withdraw);
+                            }
+                            else
+                            {
+                                Console.WriteLine("Chave Incorreta!");
+                            }
                             break;
                         case 2:
                             float value_deposit;
                             Console.WriteLine("Digite o valor a ser depositado");
                             value_deposit = float.Parse(Console.ReadLine());
-                            Withdraw(Account.cpf, Account.name, value_deposit);
+                            Deposit(Account.cpf, Account.name, value_deposit);
                             break;
                         case 3:
                             string cpf_destiny;
@@ -94,7 +102,16 @@ namespace Bank_System
                             cpf_destiny = Console.ReadLine();
                             Console.WriteLine("Digite o valor a ser transferido");
                             value_Transfer = float.Parse(Console.ReadLine());
-                            Withdraw(cpf_destiny, Account.cpf, value_Transfer);
+                            key = Console.ReadLine();
+                            if (Account.aceess_key.Equals(key))
+                            {
+                                tranferir(cpf_destiny, Account.cpf, value_Transfer);
+                            }
+                            else
+                            {
+                                Console.WriteLine("Chave Incorreta!");
+                            }
+                            
                             break;
 
                     }
@@ -102,9 +119,12 @@ namespace Bank_System
             }
            
         }
-       
+        public string UUID_Generate()
+        {
+            return Guid.NewGuid().ToString().ToUpper().Substring(0, 5);
+        }
 
-        public void Deposit(string client_cpf, string client_name, float value)
+        private void Deposit(string client_cpf, string client_name, float value)
         {
             List<Client> List_Client = DeserializeClient("Client.json");
             foreach (var Account in List_Client)
@@ -118,7 +138,7 @@ namespace Bank_System
             SerializeClient(List_Client, "Client.json");
         }
 
-        public void Withdraw(string client_cpf, string client_name, float value)
+        private void Withdraw(string client_cpf, string client_name, float value)
         {
             List<Client> List_Client = DeserializeClient("Client.json");
             foreach (var Account in List_Client)
@@ -133,6 +153,7 @@ namespace Bank_System
                     else
                     {
                         Console.WriteLine("Saldo indisponivel.");
+                        Console.ReadKey();
                     }
 
                 }
@@ -140,7 +161,7 @@ namespace Bank_System
             SerializeClient(List_Client, "Client.json");
 
         }
-        public void tranferir(string destino_cpf , string saida_cpf,float value)
+        private void tranferir(string destino_cpf , string saida_cpf,float value)
         {
             List<Client> List_Client = DeserializeClient("Client.json");
             foreach (var Account in List_Client)
@@ -175,10 +196,7 @@ namespace Bank_System
 
 
 
-        public string UUID_Generate()
-        {
-            return Guid.NewGuid().ToString().ToUpper().Substring(0, 5);
-        }
+       
 
 
         public bool SerializeClient(List<Client> list, string path)
