@@ -1,0 +1,7 @@
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\API\API\bin\Debug\API.exe.config
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\API\API\bin\Debug\API.exe
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\API\API\bin\Debug\API.pdb
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\API\API\obj\Debug\API.csproj.AssemblyReference.cache
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\API\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\API\API\obj\Debug\API.exe
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\API\API\obj\Debug\API.pdb

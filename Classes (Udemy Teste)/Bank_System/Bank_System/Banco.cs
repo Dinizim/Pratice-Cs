@@ -96,16 +96,18 @@ namespace Bank_System
                             Deposit(Account.cpf, Account.name, value_deposit);
                             break;
                         case 3:
+
                             string cpf_destiny;
                             float value_Transfer;
                             Console.WriteLine("Digite o cpf da conta que ira receber o pagamento");
                             cpf_destiny = Console.ReadLine();
                             Console.WriteLine("Digite o valor a ser transferido");
                             value_Transfer = float.Parse(Console.ReadLine());
+                            Console.WriteLine("Digite sua chave de acesso");
                             key = Console.ReadLine();
                             if (Account.aceess_key.Equals(key))
                             {
-                                tranferir(cpf_destiny, Account.cpf, value_Transfer);
+                                Transferir(cpf_destiny, Account.cpf, value_Transfer);
                             }
                             else
                             {
@@ -161,7 +163,7 @@ namespace Bank_System
             SerializeClient(List_Client, "Client.json");
 
         }
-        private void tranferir(string destino_cpf , string saida_cpf,float value)
+        private void Transferir(string destino_cpf , string saida_cpf,float value)
         {
             List<Client> List_Client = DeserializeClient("Client.json");
             foreach (var Account in List_Client)
