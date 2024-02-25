@@ -8,3 +8,5 @@ C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\Bank_
 C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\Bank_System\Bank_System\bin\Debug\Newtonsoft.Json.dll
 C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\Bank_System\Bank_System\bin\Debug\Newtonsoft.Json.xml
 C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\Bank_System\Bank_System\obj\Debug\Bank_System.csproj.CopyComplete
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\Bank_System\Bank_System\bin\Debug\System.Data.SQLite.dll
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Classes (Udemy Teste)\Bank_System\Bank_System\bin\Debug\System.Data.SQLite.xml

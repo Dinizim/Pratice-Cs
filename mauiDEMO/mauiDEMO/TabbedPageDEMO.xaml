@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mauiDEMO.TabbedPageDEMO"
+             Title="TabbedPageDEMO">
+    
+    <ContentPage Title="pag 1" BackgroundColor="Indigo"></ContentPage>
+    <ContentPage Title="pag 2" BackgroundColor="DarkTurquoise"></ContentPage>
+    <ContentPage Title="pag 3" BackgroundColor="Aqua"></ContentPage>
+    <ContentPage Title="pag 4" BackgroundColor="Bisque"></ContentPage>
+    
+</TabbedPage>
