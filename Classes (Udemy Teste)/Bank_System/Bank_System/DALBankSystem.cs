@@ -24,13 +24,13 @@ namespace Bank_System
             sqliteconnection = new SQLiteConnection("Data Source=" + path);
             sqliteconnection.Open();
             return sqliteconnection;
-            //caso nao exista o bd o metodo abaixo vai resolver isso
+            
         }
         public static void CriarBancoSQLite()
         {
             try
             {
-                //caso o bd nao existe ira criar um
+
                 if(File.Exists(path) == false)
                 {
                     SQLiteConnection.CreateFile(path);
@@ -46,7 +46,6 @@ namespace Bank_System
         {
             try
             {
-                //criar tabela caso ela n exista
                 using(var cmd = DbConnection().CreateCommand())
                 {
                     cmd.CommandText = "CREATE TABLE IF NOT EXISTS Account(name Varchar(50),cpf Varchar(11), saldo int, AcessKEY Varchar(5), dd_mm_aa int)";
