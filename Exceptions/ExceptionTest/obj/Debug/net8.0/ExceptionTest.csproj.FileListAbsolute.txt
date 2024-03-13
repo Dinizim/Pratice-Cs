@@ -1,0 +1,15 @@
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Exceptions\ExceptionTest\bin\Debug\net8.0\ExceptionTest.exe
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Exceptions\ExceptionTest\bin\Debug\net8.0\ExceptionTest.deps.json
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Exceptions\ExceptionTest\bin\Debug\net8.0\ExceptionTest.runtimeconfig.json
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Exceptions\ExceptionTest\bin\Debug\net8.0\ExceptionTest.dll
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Exceptions\ExceptionTest\bin\Debug\net8.0\ExceptionTest.pdb
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Exceptions\ExceptionTest\obj\Debug\net8.0\ExceptionTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Exceptions\ExceptionTest\obj\Debug\net8.0\ExceptionTest.AssemblyInfoInputs.cache
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Exceptions\ExceptionTest\obj\Debug\net8.0\ExceptionTest.AssemblyInfo.cs
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Exceptions\ExceptionTest\obj\Debug\net8.0\ExceptionTest.csproj.CoreCompileInputs.cache
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Exceptions\ExceptionTest\obj\Debug\net8.0\ExceptionTest.sourcelink.json
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Exceptions\ExceptionTest\obj\Debug\net8.0\ExceptionTest.dll
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Exceptions\ExceptionTest\obj\Debug\net8.0\refint\ExceptionTest.dll
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Exceptions\ExceptionTest\obj\Debug\net8.0\ExceptionTest.pdb
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Exceptions\ExceptionTest\obj\Debug\net8.0\ExceptionTest.genruntimeconfig.cache
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\Exceptions\ExceptionTest\obj\Debug\net8.0\ref\ExceptionTest.dll
