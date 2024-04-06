@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Employee_management;
+public abstract class Employee  // != new Employee
+{
+    public string Name { get; set; }
+    public string Last_Name { get; set; }
+    public string Id { get; }
+
+    // TODO: adicionar paramentros de validação para o metodo construtor usando execption
+    protected Employee(string name,string last_name)
+    {
+        Name = name;
+        Last_Name = last_name;
+        Id = ID_Generate();
+    }
+
+
+    public virtual double CalculateSalary()
+    {
+        return 00.00;
+    }
+
+
+    private static string ID_Generate()
+    {
+        return Guid.NewGuid().ToString().ToUpper().Substring(0, 5);
+    }
+}

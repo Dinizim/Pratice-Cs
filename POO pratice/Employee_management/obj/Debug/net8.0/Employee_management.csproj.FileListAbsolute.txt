@@ -1,0 +1,15 @@
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\Employee_management\bin\Debug\net8.0\Employee_management.exe
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\Employee_management\bin\Debug\net8.0\Employee_management.deps.json
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\Employee_management\bin\Debug\net8.0\Employee_management.runtimeconfig.json
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\Employee_management\bin\Debug\net8.0\Employee_management.dll
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\Employee_management\bin\Debug\net8.0\Employee_management.pdb
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\Employee_management\obj\Debug\net8.0\Employee_management.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\Employee_management\obj\Debug\net8.0\Employee_management.AssemblyInfoInputs.cache
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\Employee_management\obj\Debug\net8.0\Employee_management.AssemblyInfo.cs
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\Employee_management\obj\Debug\net8.0\Employee_management.csproj.CoreCompileInputs.cache
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\Employee_management\obj\Debug\net8.0\Employee_management.sourcelink.json
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\Employee_management\obj\Debug\net8.0\Employee_management.dll
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\Employee_management\obj\Debug\net8.0\refint\Employee_management.dll
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\Employee_management\obj\Debug\net8.0\Employee_management.pdb
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\Employee_management\obj\Debug\net8.0\Employee_management.genruntimeconfig.cache
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\Employee_management\obj\Debug\net8.0\ref\Employee_management.dll
