@@ -1,14 +1,15 @@
-﻿using System;
+﻿using Employee_management.Interface;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Employee_management;
-public abstract class Employee  // != new Employee
+public abstract class Employee : ICalcilateSalary // != new Employee
 {
-    public string Name { get; set; }
-    public string Last_Name { get; set; }
+    public string Name { get;}
+    public string Last_Name { get; }
     public string Id { get; }
 
     // TODO: adicionar paramentros de validação para o metodo construtor usando execption
