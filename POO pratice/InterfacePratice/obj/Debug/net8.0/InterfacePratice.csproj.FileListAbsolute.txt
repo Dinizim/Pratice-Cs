@@ -1,0 +1,15 @@
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\InterfacePratice\obj\Debug\net8.0\InterfacePratice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\InterfacePratice\obj\Debug\net8.0\InterfacePratice.AssemblyInfoInputs.cache
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\InterfacePratice\obj\Debug\net8.0\InterfacePratice.AssemblyInfo.cs
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\InterfacePratice\obj\Debug\net8.0\InterfacePratice.csproj.CoreCompileInputs.cache
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\InterfacePratice\obj\Debug\net8.0\InterfacePratice.sourcelink.json
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\InterfacePratice\bin\Debug\net8.0\InterfacePratice.exe
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\InterfacePratice\bin\Debug\net8.0\InterfacePratice.deps.json
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\InterfacePratice\bin\Debug\net8.0\InterfacePratice.runtimeconfig.json
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\InterfacePratice\bin\Debug\net8.0\InterfacePratice.dll
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\InterfacePratice\bin\Debug\net8.0\InterfacePratice.pdb
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\InterfacePratice\obj\Debug\net8.0\InterfacePratice.dll
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\InterfacePratice\obj\Debug\net8.0\refint\InterfacePratice.dll
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\InterfacePratice\obj\Debug\net8.0\InterfacePratice.pdb
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\InterfacePratice\obj\Debug\net8.0\InterfacePratice.genruntimeconfig.cache
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\POO pratice\InterfacePratice\obj\Debug\net8.0\ref\InterfacePratice.dll
