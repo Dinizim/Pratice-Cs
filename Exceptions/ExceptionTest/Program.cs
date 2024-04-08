@@ -10,7 +10,9 @@ internal class Program
                           "Validador de senha \n" +
                           "- Crie uma senha com no máximo 5 digitos \n"+
                           "- Ela não pode conter espaços e numeros\n");
+
             Console.WriteLine("Digite sua senha :");
+
             string senha = Console.ReadLine();
             try
             {  
@@ -19,25 +21,29 @@ internal class Program
             catch (ArgumentException ex)
             {
                 Console.WriteLine("ERROR :"+ ex.Message);
-            }
+                Console.WriteLine("StackTrace: " + ex.StackTrace);
+        }
             catch (Exception ex)
             {
                 Console.WriteLine("ERROR :" + ex.Message);
-        }
+            }
             finally
             {
-                Console.WriteLine("Obrigado por usar meu programa!");
+                Console.WriteLine($"Obrigado por usar meu programa!\n" +
+                    $"sua senha: {senha}");
+
             }
         }
 
         private static void Test(string senha)
         {
             bool containNumbers = senha.Any(char.IsDigit);
-            if (string.IsNullOrEmpty(senha) || senha.Length > 5 || containNumbers)
-                throw new ArgumentException("A senha não atende os caracteres especificados");
+        if (string.IsNullOrEmpty(senha) || senha.Length < 5 || containNumbers || senha.Contains(" "))
+            throw new ArgumentException("A senha não atende os caracteres especificados");
 
-        }
-        
+
     }
+
+}
   
 

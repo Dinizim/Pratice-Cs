@@ -15,6 +15,17 @@ public abstract class Employee : ICalcilateSalary // != new Employee
     // TODO: adicionar paramentros de validação para o metodo construtor usando execption
     protected Employee(string name,string last_name)
     {
+        if (string.IsNullOrWhiteSpace(name))
+        {
+            throw new ArgumentException("Name cannot be null or empty.", nameof(name));
+        }
+
+        if (string.IsNullOrWhiteSpace(last_name))
+        {
+            throw new ArgumentException("Last name cannot be null or empty.", nameof(last_name));
+        }
+
+        
         Name = name;
         Last_Name = last_name;
         Id = ID_Generate();

@@ -13,13 +13,26 @@ internal class Program
 
     static void Main(string[] args)
     {
-        Employee Marcelo = new SalariedEmployee("Marcelo","Guilherme", 4000.00);
-        Employee Douglas = new HourlyEmployee("Douglas", "Miguel", 6 , 60);
-        ShowEmployee(Marcelo);
-        ShowEmployee(Douglas);
+        try
+        {
+            Employee Marcelo = new SalariedEmployee("Marcelo", "Guilherme", 4000.00);
+            Employee Douglas = new HourlyEmployee("Douglas", "Miguel", 6, 60);
+            ShowEmployee(Marcelo);
+            ShowEmployee(Douglas);
+        }
+        catch (ArgumentException ex)
+        {
+            Console.Write("ERROR:" + ex.Message + "\n StackTree :" + ex.StackTrace);
+
+        }
+        finally
+        {
+            Console.WriteLine("\n Thanks!!! \n\n\n");
+        }
+
     }
 
-    
+
 
 
 }
