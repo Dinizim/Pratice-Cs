@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ch4JKMSJCg8/+hrtfRvu3Ag7l9pXS6RlMUPWoDPmOWPEc/ewbfTyXF/L1Aa4PUu4jLDgI7fVYj/eMEhChU8OmA==",
+  "dgSpecHash": "uj++JiZjEXk/wCf4/eL87yncrIjHBGFNl1ZmLFrVQMSbLfdiiEph9DuavxuuPycIJvAnORAo3hAidSv5pWYJ9w==",
   "success": true,
   "projectFilePath": "C:\\Users\\nicol\\OneDrive\\Documentos\\GitHub\\Pratice-C#\\FisrtAPI\\FisrtAPI.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.4\\microsoft.entityframeworkcore.relational.8.0.4.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\8.0.4\\microsoft.entityframeworkcore.sqlite.8.0.4.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\8.0.4\\microsoft.entityframeworkcore.sqlite.core.8.0.4.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.4\\microsoft.entityframeworkcore.tools.8.0.4.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
