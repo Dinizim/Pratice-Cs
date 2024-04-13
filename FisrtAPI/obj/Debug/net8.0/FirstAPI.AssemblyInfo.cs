@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("FisrtAPI")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("FirstAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8cc7064b95fdf6526f2cce64fce6ee983f454ab2")]
-[assembly: System.Reflection.AssemblyProductAttribute("FisrtAPI")]
-[assembly: System.Reflection.AssemblyTitleAttribute("FisrtAPI")]
+[assembly: System.Reflection.AssemblyProductAttribute("FirstAPI")]
+[assembly: System.Reflection.AssemblyTitleAttribute("FirstAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

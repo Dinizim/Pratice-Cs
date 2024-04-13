@@ -3,6 +3,7 @@ using FisrtAPI.Models;
 using FisrtAPI.Data;
 using Microsoft.EntityFrameworkCore;
 using FisrtAPI.ViewsModels;
+using FirstAPI.ViewsModels;
 
 namespace FisrtAPI.Controllers;
 
@@ -42,7 +43,8 @@ public class TodoController : ControllerBase
     // metodo post ---> Adicionar um dado 
     [HttpPost("todos")]
     public async Task<IActionResult> PostAsync(
-        [FromServices] AppDbContext context, [FromBody] CreateTodoViewModels model)
+        [FromServices] AppDbContext context,
+        [FromBody] CreateTodoViewModels model)
     {
         // valida os campos do FROMBODY
         if (!ModelState.IsValid)
@@ -72,7 +74,7 @@ public class TodoController : ControllerBase
     [HttpPut("todos/{id}")]
     public async Task<IActionResult> PutAsync(
         [FromServices] AppDbContext context,
-        [FromBody] CreateTodoViewModels model,
+        [FromBody] EditTodoViewModels model,
         [FromRoute] int id)
     {
         // valida os campos do FROMBODY
@@ -89,6 +91,7 @@ public class TodoController : ControllerBase
         {
             //para o metodo PUT(editar) e recomendado ter um viewmodel so para ele
             todo.Title = model.Title;
+            todo.Done = model.Done;
 
 
             //adicionar e salvar (importante ser await)

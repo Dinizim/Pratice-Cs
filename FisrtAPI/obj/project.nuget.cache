@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uj++JiZjEXk/wCf4/eL87yncrIjHBGFNl1ZmLFrVQMSbLfdiiEph9DuavxuuPycIJvAnORAo3hAidSv5pWYJ9w==",
+  "dgSpecHash": "ys6lRYhOJ/9yDJMAb7XezD2GFyzKzd7NCnTGLKFyfTom4zaQGd6KbTlTwKrxrBIy92bZnNLEI5SPFV4ZyKzijw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nicol\\OneDrive\\Documentos\\GitHub\\Pratice-C#\\FisrtAPI\\FisrtAPI.csproj",
+  "projectFilePath": "C:\\Users\\nicol\\OneDrive\\Documentos\\GitHub\\Pratice-C#\\FisrtAPI\\FirstAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nicol\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
