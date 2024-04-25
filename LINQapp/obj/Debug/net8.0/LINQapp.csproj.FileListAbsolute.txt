@@ -1,0 +1,15 @@
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\LINQapp\bin\Debug\net8.0\LINQapp.exe
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\LINQapp\bin\Debug\net8.0\LINQapp.deps.json
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\LINQapp\bin\Debug\net8.0\LINQapp.runtimeconfig.json
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\LINQapp\bin\Debug\net8.0\LINQapp.dll
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\LINQapp\bin\Debug\net8.0\LINQapp.pdb
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\LINQapp\obj\Debug\net8.0\LINQapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\LINQapp\obj\Debug\net8.0\LINQapp.AssemblyInfoInputs.cache
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\LINQapp\obj\Debug\net8.0\LINQapp.AssemblyInfo.cs
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\LINQapp\obj\Debug\net8.0\LINQapp.csproj.CoreCompileInputs.cache
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\LINQapp\obj\Debug\net8.0\LINQapp.sourcelink.json
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\LINQapp\obj\Debug\net8.0\LINQapp.dll
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\LINQapp\obj\Debug\net8.0\refint\LINQapp.dll
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\LINQapp\obj\Debug\net8.0\LINQapp.pdb
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\LINQapp\obj\Debug\net8.0\LINQapp.genruntimeconfig.cache
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\LINQapp\obj\Debug\net8.0\ref\LINQapp.dll
