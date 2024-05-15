@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FileManagementAPP/1.0.0": {
+        "runtime": {
+          "FileManagementAPP.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FileManagementAPP/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

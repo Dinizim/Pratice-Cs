@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("LINQapp")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("FileManagementAPP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b99425aed6fc223d30c1e81988c75996a667b88c")]
-[assembly: System.Reflection.AssemblyProductAttribute("LINQapp")]
-[assembly: System.Reflection.AssemblyTitleAttribute("LINQapp")]
+[assembly: System.Reflection.AssemblyProductAttribute("FileManagementAPP")]
+[assembly: System.Reflection.AssemblyTitleAttribute("FileManagementAPP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

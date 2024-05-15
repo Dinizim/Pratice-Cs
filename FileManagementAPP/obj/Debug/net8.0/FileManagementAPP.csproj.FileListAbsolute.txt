@@ -1,0 +1,15 @@
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\FileManagementAPP\obj\Debug\net8.0\FileManagementAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\FileManagementAPP\obj\Debug\net8.0\FileManagementAPP.AssemblyInfoInputs.cache
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\FileManagementAPP\obj\Debug\net8.0\FileManagementAPP.AssemblyInfo.cs
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\FileManagementAPP\obj\Debug\net8.0\FileManagementAPP.csproj.CoreCompileInputs.cache
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\FileManagementAPP\obj\Debug\net8.0\FileManagementAPP.sourcelink.json
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\FileManagementAPP\bin\Debug\net8.0\FileManagementAPP.exe
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\FileManagementAPP\bin\Debug\net8.0\FileManagementAPP.deps.json
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\FileManagementAPP\bin\Debug\net8.0\FileManagementAPP.runtimeconfig.json
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\FileManagementAPP\bin\Debug\net8.0\FileManagementAPP.dll
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\FileManagementAPP\bin\Debug\net8.0\FileManagementAPP.pdb
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\FileManagementAPP\obj\Debug\net8.0\FileManagementAPP.dll
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\FileManagementAPP\obj\Debug\net8.0\refint\FileManagementAPP.dll
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\FileManagementAPP\obj\Debug\net8.0\FileManagementAPP.pdb
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\FileManagementAPP\obj\Debug\net8.0\FileManagementAPP.genruntimeconfig.cache
+C:\Users\nicol\OneDrive\Documentos\GitHub\Pratice-C#\FileManagementAPP\obj\Debug\net8.0\ref\FileManagementAPP.dll
