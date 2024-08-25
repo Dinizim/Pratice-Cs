@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "yFVv8jTmqUSM9C+APyug9YjkjE9BppkCKAHJCzMNzCKPg8GifkimHJ/mvum68z4zIK9eIMTHQfeQxL3WsfSdmA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nicol\\OneDrive\\Documentos\\GitHub\\CEP_RestConsumerAPI\\CEP-APIconsumer\\CEP-APIconsumer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nicol\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\refit\\7.0.0\\refit.7.0.0.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\system.net.http.json\\7.0.1\\system.net.http.json.7.0.1.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\nicol\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

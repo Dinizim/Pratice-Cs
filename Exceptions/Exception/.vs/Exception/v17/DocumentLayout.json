@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Restant\\Refor\u00E7o nos Estudos\\Exception\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E84813F9-7BC6-4E06-BD4B-8DB1CC450F39}|Exception.csproj|c:\\restant\\refor\u00E7o nos estudos\\exception\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84813F9-7BC6-4E06-BD4B-8DB1CC450F39}|Exception.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E84813F9-7BC6-4E06-BD4B-8DB1CC450F39}|Exception.csproj|c:\\restant\\refor\u00E7o nos estudos\\exception\\exception\\invalidorderexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E84813F9-7BC6-4E06-BD4B-8DB1CC450F39}|Exception.csproj|solutionrelative:exception\\invalidorderexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InvalidOrderException.cs",
+              "DocumentMoniker": "C:\\Restant\\Refor\u00E7o nos Estudos\\Exception\\Exception\\InvalidOrderException.cs",
+              "RelativeDocumentMoniker": "Exception\\InvalidOrderException.cs",
+              "ToolTip": "C:\\Restant\\Refor\u00E7o nos Estudos\\Exception\\Exception\\InvalidOrderException.cs",
+              "RelativeToolTip": "Exception\\InvalidOrderException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T19:39:33.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Restant\\Refor\u00E7o nos Estudos\\Exception\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Restant\\Refor\u00E7o nos Estudos\\Exception\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T19:36:02.835Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
