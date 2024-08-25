@@ -1,0 +1,48 @@
+﻿@page "/users/create"
+@inject CRUDBlazorTest.Data.AppDbContext DB
+@using CRUDBlazorTest.Models
+@inject NavigationManager NavigationManager
+
+<PageTitle>Create</PageTitle>
+
+<h1>Create</h1>
+
+<h4>User</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <EditForm method="post" Model="User" OnValidSubmit="AddUser" FormName="create" Enhance>
+            <DataAnnotationsValidator />
+            <ValidationSummary class="text-danger" />
+            <div class="mb-3">
+                <label for="name" class="form-label">Name:</label> 
+                <InputText id="name" @bind-Value="User.Name" class="form-control" /> 
+                <ValidationMessage For="() => User.Name" class="text-danger" /> 
+            </div>        
+            <div class="mb-3">
+                <label for="problemdescription" class="form-label">ProblemDescription:</label> 
+                <InputText id="problemdescription" @bind-Value="User.ProblemDescription" class="form-control" /> 
+                <ValidationMessage For="() => User.ProblemDescription" class="text-danger" /> 
+            </div>        
+            <button type="submit" class="btn btn-primary">Create</button>
+        </EditForm>
+    </div>
+</div>
+
+<div>
+    <a href="/users">Back to List</a>
+</div>
+
+@code {
+
+    [SupplyParameterFromForm]
+    public User User { get; set; } = new();
+
+    // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
+    public async Task AddUser()
+    {
+        DB.Users.Add(User);
+        await DB.SaveChangesAsync();
+        NavigationManager.NavigateTo("/users");
+    }
+}
