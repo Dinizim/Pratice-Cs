@@ -103,3 +103,16 @@ C:\Users\nicol\Documents\GitHub\Pratice-Cs\WebAPIProjects\Employee_Maneger\Emplo
 C:\Users\nicol\Documents\GitHub\Pratice-Cs\WebAPIProjects\Employee_Maneger\EmployeeManeger\EmployeeManeger\obj\Debug\net8.0\EmployeeManeger.pdb
 C:\Users\nicol\Documents\GitHub\Pratice-Cs\WebAPIProjects\Employee_Maneger\EmployeeManeger\EmployeeManeger\obj\Debug\net8.0\EmployeeManeger.genruntimeconfig.cache
 C:\Users\nicol\Documents\GitHub\Pratice-Cs\WebAPIProjects\Employee_Maneger\EmployeeManeger\EmployeeManeger\obj\Debug\net8.0\ref\EmployeeManeger.dll
+C:\Users\nicol\Documents\GitHub\Pratice-Cs\WebAPIProjects\Employee_Maneger\EmployeeManeger\EmployeeManeger\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\nicol\Documents\GitHub\Pratice-Cs\WebAPIProjects\Employee_Maneger\EmployeeManeger\EmployeeManeger\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\nicol\Documents\GitHub\Pratice-Cs\WebAPIProjects\Employee_Maneger\EmployeeManeger\EmployeeManeger\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\nicol\Documents\GitHub\Pratice-Cs\WebAPIProjects\Employee_Maneger\EmployeeManeger\EmployeeManeger\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\nicol\Documents\GitHub\Pratice-Cs\WebAPIProjects\Employee_Maneger\EmployeeManeger\EmployeeManeger\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\nicol\Documents\GitHub\Pratice-Cs\WebAPIProjects\Employee_Maneger\EmployeeManeger\EmployeeManeger\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\nicol\Documents\GitHub\Pratice-Cs\WebAPIProjects\Employee_Maneger\EmployeeManeger\EmployeeManeger\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\nicol\Documents\GitHub\Pratice-Cs\WebAPIProjects\Employee_Maneger\EmployeeManeger\EmployeeManeger\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\nicol\Documents\GitHub\Pratice-Cs\WebAPIProjects\Employee_Maneger\EmployeeManeger\EmployeeManeger\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\nicol\Documents\GitHub\Pratice-Cs\WebAPIProjects\Employee_Maneger\EmployeeManeger\EmployeeManeger\bin\Debug\net8.0\Asp.Versioning.Abstractions.dll
+C:\Users\nicol\Documents\GitHub\Pratice-Cs\WebAPIProjects\Employee_Maneger\EmployeeManeger\EmployeeManeger\bin\Debug\net8.0\Asp.Versioning.Http.dll
+C:\Users\nicol\Documents\GitHub\Pratice-Cs\WebAPIProjects\Employee_Maneger\EmployeeManeger\EmployeeManeger\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
+C:\Users\nicol\Documents\GitHub\Pratice-Cs\WebAPIProjects\Employee_Maneger\EmployeeManeger\EmployeeManeger\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll
